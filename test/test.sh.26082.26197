@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cp "$1" "$2"
+echo "--- Contents of the new file ($2) ---"
+cat "$2"
+#!/bin/bash
+
+cat "$1" >> "$2"
+echo "Content of '$1' has been appended to '$2'."
